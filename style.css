@@ -4,6 +4,8 @@ body {
     font-weight: 400;
 }
 
+/* Header */
+
 header {
     display: flex;
     justify-content: center;
@@ -87,9 +89,84 @@ header {
     border-radius: 40px;
     background-color: black;
     color: white;
+    transition: background-color 0.2s ease;
 }
 
 #join-now:hover {
     background-color: rgba(0,0,0,0.7);
     cursor: pointer;
 }
+
+/* Header End */
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#section-one {
+    margin: 30px 0; 
+    width: 1650px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.section-text-container {
+    display: flex;
+    width: 50%;
+    background-color: #d4e9e2;
+    justify-content: center;
+}
+
+.section-text {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    align-items: center;
+}
+
+.section-text h1{
+    font-size: 24px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1e3932;
+    margin: 110px 0 30px 0;
+}
+
+.section-text p{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1e3932;
+    margin: 0 0 30px 0;
+}
+
+.section-text button {
+    background-color: #d4e9e2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 7px 16px;
+    border: solid #1e3932 1px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+}
+
+.section-text button:hover {
+    background-color: rgba(30,57,50,.1);
+}
+
+
+
+/* Main End */
