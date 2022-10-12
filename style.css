@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "SoDo Sans SemiBold";
+}
+
+h1 {
+    color: blue;
+}
+
+#navbar-left svg {
+    width: 50px;
+}
