@@ -1,13 +1,95 @@
 body {
     margin: 0px;
-    padding: 0px;
     font-family: "SoDo Sans SemiBold";
+    font-weight: 400;
 }
 
-h1 {
-    color: blue;
+header {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.25);
+}
+
+ nav {
+    width: 1650px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+#navbar-left {
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 #navbar-left svg {
     width: 50px;
+}
+
+#navbar-left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#navbar-left li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#navbar-left li:hover {
+    color: #006341;
+    cursor: pointer;
+}
+
+#navbar-right {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar-right svg {
+    width: 50px;
+}
+
+#find-a-store {
+    display: flex;
+    align-items: center;
+}
+
+#find-a-store:hover {
+    color:#006341;
+    cursor: pointer;
+}
+
+#navbar-right button{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#sign-in {
+    border: solid black 1px;
+    border-radius: 40px;
+}
+
+#sign-in:hover {
+    cursor: pointer;
+}
+
+#join-now {
+    border: solid black 1px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+
+#join-now:hover {
+    background-color: rgba(0,0,0,0.7);
+    cursor: pointer;
 }
