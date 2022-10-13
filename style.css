@@ -103,10 +103,18 @@ header {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
 }
 
 #section-one {
+    margin: 30px 0; 
+    width: 1650px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-two {
     margin: 30px 0; 
     width: 1650px;
     display: flex;
@@ -118,6 +126,7 @@ main {
 }
 
 .image-container img{
+    background-color: #d4e9e2;
     width: 100%;
 }
 
@@ -135,7 +144,7 @@ main {
     align-items: center;
 }
 
-.section-text h1{
+#section-one h1{
     font-size: 24px;
     font-size: 24px;
     line-height: 36px;
@@ -143,7 +152,7 @@ main {
     margin: 110px 0 30px 0;
 }
 
-.section-text p{
+#section-one p{
     text-align: center;
     font-size: 19px;
     font-weight: 400;
@@ -152,7 +161,7 @@ main {
     margin: 0 0 30px 0;
 }
 
-.section-text button {
+#section-one button {
     background-color: #d4e9e2;
     font-size: 16px;
     font-weight: 600;
@@ -163,10 +172,40 @@ main {
     transition: background-color 0.2s ease;
 }
 
-.section-text button:hover {
+#section-one button:hover {
     background-color: rgba(30,57,50,.1);
 }
 
+#section-two h1{
+    font-size: 50px;
+    line-height: 60px;
+    color: #1e3932;
+    margin: 130px 0 30px 0;
+}
+
+#section-two p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1e3932;
+    margin: 0 0 30px 0;
+}
+
+#section-two button {
+    background-color: #d4e9e2;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 7px 16px;
+    border: solid #1e3932 1px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+}
+
+#section-two button:hover {
+    background-color: rgba(30,57,50,.1);
+}
 
 
 /* Main End */
