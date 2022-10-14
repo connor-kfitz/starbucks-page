@@ -109,14 +109,20 @@ main {
 
 #section-one {
     margin: 30px 0; 
-    width: 1650px;
+    width: 1435px;
     display: flex;
     flex-direction: row;
 }
 
 #section-two {
+    width: 1435px;
+    display: flex;
+    flex-direction: row;
+}
+
+#section-three {
     margin: 30px 0; 
-    width: 1650px;
+    width: 1435px;
     display: flex;
     flex-direction: row;
 }
@@ -127,38 +133,34 @@ main {
 
 .image-container img{
     background-color: #d4e9e2;
+    height: 100%;
     width: 100%;
 }
 
 .section-text-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
     background-color: #d4e9e2;
-    justify-content: center;
-}
-
-.section-text {
-    display: flex;
-    flex-flow: column;
-    width: 70%;
-    align-items: center;
 }
 
 #section-one h1{
-    font-size: 24px;
+    text-align: center;
     font-size: 24px;
     line-height: 36px;
     color: #1e3932;
-    margin: 110px 0 30px 0;
+    margin: 120px 0 0 0;
 }
 
 #section-one p{
     text-align: center;
+    width: 75%;
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 0;
     line-height: 36px;
     color: #1e3932;
-    margin: 0 0 30px 0;
+    margin-bottom: 30px;
 }
 
 #section-one button {
@@ -167,6 +169,7 @@ main {
     font-weight: 600;
     line-height: 19px;
     padding: 7px 16px;
+    width: 15%;
     border: solid #1e3932 1px;
     border-radius: 50px;
     transition: background-color 0.2s ease;
@@ -174,22 +177,26 @@ main {
 
 #section-one button:hover {
     background-color: rgba(30,57,50,.1);
+    cursor: pointer;
 }
 
 #section-two h1{
+    width: 64%;
+    text-align: center;
     font-size: 50px;
     line-height: 60px;
     color: #1e3932;
-    margin: 130px 0 30px 0;
+    margin: 140px 0 0 0;
 }
 
 #section-two p{
+    width: 69%;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     color: #1e3932;
-    margin: 0 0 30px 0;
+    margin-bottom: 30px
 }
 
 #section-two button {
@@ -205,6 +212,50 @@ main {
 
 #section-two button:hover {
     background-color: rgba(30,57,50,.1);
+    cursor: pointer;
+}
+
+#section-three-text-container {
+    background-color: #006241;
+}
+
+#section-three h1{
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    color: #ffffff;
+    margin-top: 175px;
+    margin-bottom: 0px;
+}
+
+#section-three p{
+    width: 70%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+#section-three button {
+    background-color: #006241;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 7px 16px;
+    border: solid #ffffff 1px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+#section-three button:hover {
+    /* background-color: #00754a; */
+    background-color: hsla(0,0%,100%,.12);
+    cursor: pointer;
 }
 
 
