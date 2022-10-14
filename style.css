@@ -121,10 +121,17 @@ main {
 }
 
 #section-three {
-    margin: 30px 0; 
     width: 1435px;
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
+}
+
+#section-four {
+    width: 1435px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
 }
 
 .image-container {
@@ -258,5 +265,44 @@ main {
     cursor: pointer;
 }
 
+#section-four-text-container {
+    background-color: #f4f3ee;
+}
+
+#section-four h1{
+    width: 75%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 36px;
+    color: #1e3932;
+    margin: 80px 0 0 0;
+}
+
+#section-four p{
+    text-align: center;
+    width: 75%;
+    font-size: 19px;
+    font-weight: 0;
+    line-height: 36px;
+    color: #1e393e;
+    margin-bottom: 30px;
+}
+
+#section-four button {
+    background-color: #f4f3ee;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    padding: 7px 16px;
+    border: solid #1e3932 1px;
+    border-radius: 50px;
+    transition: background-color 0.2s ease;
+}
+
+#section-four button:hover {
+    background-color: rgba(30,57,50,.1);
+    cursor: pointer;
+}
 
 /* Main End */
