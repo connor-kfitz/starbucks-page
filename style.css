@@ -1,7 +1,7 @@
 body {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     font-family: "SoDo Sans SemiBold";
-    font-weight: 400;
 }
 
 /* Header */
@@ -305,4 +305,109 @@ main {
     cursor: pointer;
 }
 
+#section-four-conditions {
+    font-size: 14px;
+    margin: 70px 0 40px 0;
+}
+
+#section-four-conditions a{
+    color: #1e3932;
+}
+
 /* Main End */
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px -1px 6px 0px rgba(0,0,0,0.25);
+}
+
+#footer-link-section {
+    width: 1435px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.footer-section {
+    width: 200px;
+    padding: 20px 0 0 0;
+    margin-right: 20px;
+}
+
+footer h2{
+    margin: 0px;
+    font-size: 19px;
+    line-height: 29px;
+    color: rgba(0,0,0,0.87);
+    padding-bottom: 25px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li{
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0,0,0,0.87);
+    padding-bottom: 25px;
+}
+
+#footer-divider {
+    width: 1435px;
+    height: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.25);
+}
+
+#footer-socials {
+    width: 1435px;
+    margin: 25px auto;
+}
+
+#footer-socials ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer-socials li {
+    display: inline;
+    margin-right: 12px;
+}
+
+#footer-options {
+    width: 1435px;
+    margin: 0 auto;
+}
+
+#privacy-terms-partners {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 28px;
+}
+
+#french-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #00754a;
+    margin-bottom: 25px;
+}
+
+#trademark {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.58);
+    margin-bottom: 40px;
+}
+
+/* Footer End */
